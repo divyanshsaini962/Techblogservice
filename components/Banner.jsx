@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Slider from "react-slick";
 import { FaChevronLeft, FaChevronRight,} from "react-icons/fa";
-import { GrFormNextLink, GrNext } from 'react-icons/gr';
+// import { GrFormNextLink, GrNext } from 'react-icons/gr';
 import bannerImgOne from "../public/images/bannerImgOne.png";
 import bannerImgTwo from "../public/images/bannerImgTwo.png";
 import bannerImgThree from "../public/images/bannerImgThree.png";
 
 
 
-function SampleNextArrow(props: any) {
+function SampleNextArrow(props) {
   const { onClick } = props;
   return (
     <div
@@ -30,7 +30,7 @@ function SampleNextArrow(props: any) {
   );
 }
 
-function SamplePrevArrow(props: any) {
+function SamplePrevArrow(props) {
   const { onClick } = props;
   return (
     <div
